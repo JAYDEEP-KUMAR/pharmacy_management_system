@@ -58,7 +58,8 @@ echo "</tr>";
 }
 ?> </table> <?php
 
-mysqli_close($conn);
+#mysqli_close($conn);
+    #EVEN Without the close connection, it will work.
 ?>
 </body>
 </html>
